@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+body{
+  background-image: linear-gradient(to right, rgb(255, 137, 137),rgb(252, 211, 134),rgb(253, 253, 133),rgb(140, 253, 140),rgb(148, 148, 252),rgb(103, 73, 124),rgb(235, 177, 235)); 
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Nanum Brush Script';
+  font-size: 5em;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#unicorn-image {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  opacity: .5;
+}
+
+.unicorn {
+  border: 2px solid pink;
+  width: 20%;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgba(250, 250, 244, 0.9);
+  z-index: 1;
+}
+
+.unicorn:hover {
+  background-color: white;
+  box-shadow: 5px 10px;
+  bottom: 3em;
+  left: 4em;
+  transform: scale(1.2, 1.2);
+  transition-duration: 1s;
+}
+
+.unicorn h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Nanum Brush Script';
+  padding: 1em;
+}
+
+.unicorn form {
+  text-align: center;
+}
+
+.unicorn select{
+  background: rgba(247, 152, 209, 0.728);
+  line-height: 1;
+  padding: 0;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+
+}
